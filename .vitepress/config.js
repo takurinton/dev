@@ -27,8 +27,8 @@ module.exports = {
       },
   
       nav: [
+        { text: 'このサイトについて', link: '/about/' },
         { text: '技術メモ', link: '/tech/' },
-        { text: '日常のメモ', link: '/daily/' },
         {
           text: '外部リンク',
           items: [
@@ -55,7 +55,11 @@ module.exports = {
             children: [
               {
                 text: 'PHP',
-                link: '/tech/php/'
+                link: '/tech/php/index.html'
+              },
+              {
+                text: 'frontend',
+                link: '/tech/frontend/index.html'
               }
             ]
           },
@@ -63,8 +67,7 @@ module.exports = {
             text: '日常のメモ',
             children: [
               {
-                text: '散歩',
-                link: '/walking/'
+                text: '準備中',
               }
             ]
           }
