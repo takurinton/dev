@@ -2,4 +2,3 @@
 
 - [about](/about/)
 - [tech](/tech/)
-- [dairy](/dairy/)
