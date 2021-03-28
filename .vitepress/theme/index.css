@@ -2,6 +2,15 @@
     --c-brand: #FF69B4;
 }
 
+a,
+p, 
+.item[data-v-798ef1f0],
+.sidebar > .sidebar-links > .sidebar-link > .sidebar-links > .sidebar-link > .sidebar-link-item {
+    font-weight: 700;
+}
+
+
+
 .nav-bar-title:hover {
     color: var(--c-brand);
 }
