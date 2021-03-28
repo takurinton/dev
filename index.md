@@ -17,5 +17,5 @@ head:
 
 # {{ $frontmatter.title }}
 
-- [about](/about/)
-- [tech](/tech/)
+- [このサイトについて](/about/)
+- [技術メモ](/tech/)
