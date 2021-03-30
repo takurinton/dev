@@ -18,5 +18,5 @@ head:
 # {{ $frontmatter.title }}
 
 - [構造化データについて](/tech/frontend/struct-data)
-- [preact-iso について](/tech/frontend/preact-iso)
-- [recoil について](/tech/frontend/recoil)
+- [wmr と preact-iso について](/tech/frontend/preact-iso)
+- [recoil の素振り](/tech/frontend/recoil)
