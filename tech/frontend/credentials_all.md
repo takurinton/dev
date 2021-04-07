@@ -69,7 +69,7 @@ Access-Control-Allow-Origin に null を指定することは W3C でも [この
 
 ## 要するに
 
-上でも書いてありますが、credentialsがある時にワイルドカードを使用するとエラーになります。   
+上でも書いてありますが、credentials がある時にワイルドカードを使用するとエラーになります。   
 MDN では [ここ](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSNotSupportingCredentials) で言及されています。  
   
 credentials が true になってるような時にどこからでもリクエストを受け付けるなんてなんて危険な！Trello になるぞ！ってことですね。  
