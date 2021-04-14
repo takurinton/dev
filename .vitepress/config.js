@@ -67,14 +67,23 @@ module.exports = {
                 text: 'Python',
                 link: '/tech/python/'
               },
+              {
+                text: 'GraphQL',
+                link: '/tech/graphql/'
+              },
+              {
+                text: 'Real World HTTP',
+                link: '/tech/real-world-http/'
+              },
             ]
           },
           {
             text: '日常のメモ',
             children: [
               {
-                text: '準備中',
-              }
+                text: '日常のメモ',
+                link: '/dairy/'
+              },
             ]
           }
         ]
