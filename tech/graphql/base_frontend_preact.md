@@ -205,19 +205,17 @@ export const Post = ({ id }) => {
 また、もし fetch API などを使用してリクエストを投げたければやり方は複数ありますが以下の方法が便利かもしれません。  
 
 ```jsx
-fetch('http://localhost:5500/graphql', {
+fetch('http://localhost:8888/graphql', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ query: `
     query {
-      todos {
-        edges {
-          node {
-            completed
-            id
-            text
-          }
-	}
+      posts {
+        id
+        title
+        content
+        is_active
+        created_at
       }
     }` 
   }),
