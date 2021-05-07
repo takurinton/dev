@@ -13,6 +13,12 @@ head:
   - - meta
     - name: twitter:description
       content: Web Components や lit で react hooks が使用できるライブラリがよかったのでまとめた
+  - - meta
+    - name: og:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:haunted が良い/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+  - - meta
+    - name: twitter:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:haunted が良い/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
 ---
 
 # {{ $frontmatter.title }}

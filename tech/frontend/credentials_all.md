@@ -13,6 +13,12 @@ head:
   - - meta
     - name: twitter:description
       content: 技術メモ | credentials を指定した際に CORS のエラーが出ることがあるのでまとめた。
+  - - meta
+    - name: og:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:credentials を指定した際に注意するべきこと/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+  - - meta
+    - name: twitter:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:credentials を指定した際に注意するべきこと/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
 ---
 
 # {{ $frontmatter.title }}

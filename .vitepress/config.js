@@ -102,6 +102,10 @@ module.exports = {
                     text: 'haunted が良い',
                     link: '/tech/frontend/haunted', 
                   },
+                  {
+                    text: 'ESM について',
+                    link: '/tech/frontend/esm', 
+                  },
                 ]
               },
               {

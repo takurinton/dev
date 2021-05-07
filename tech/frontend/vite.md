@@ -13,6 +13,12 @@ head:
   - - meta
     - name: twitter:description
       content: 技術メモ | Vitejs を普段使ったりドキュメントの日本語翻訳チームを作ったりしてるので布教の意味も込めて
+  - - meta
+    - name: og:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:Vitejs について/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+  - - meta
+    - name: twitter:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:Vitejs について/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
 ---
 
 # {{ $frontmatter.title }}
