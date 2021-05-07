@@ -13,6 +13,12 @@ head:
   - - meta
     - name: twitter:description
       content: 技術メモ | フロントエンド
+  - - meta
+    - name: og:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Arial_70_bold:フロントエンドの記事一覧/v1620370106/techmemo.png
+  - - meta
+    - name: twitter:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Arial_70_bold:フロントエンドの記事一覧/v1620370106/techmemo.png
 ---
 
 # {{ $frontmatter.title }}
@@ -25,3 +31,4 @@ head:
 - [lit-html の素振り](/tech/frontend/lit-html)
 - [Vitejs について](/tech/frontend/vite)
 - [haunted が良い](/tech/frontend/haunted)
+- [ESM について](/tech/frontend/esm)
