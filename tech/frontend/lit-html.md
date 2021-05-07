@@ -13,6 +13,12 @@ head:
   - - meta
     - name: twitter:description
       content: 技術メモ | lit-html が面白そうなので素振りをしてみた
+  - - meta
+    - name: og:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Arial_70_bold:{{ $frontmatter.title }}/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+  - - meta
+    - name: twitter:image
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Arial_70_bold:{{ $frontmatter.title }}/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
 ---
 
 # {{ $frontmatter.title }}
