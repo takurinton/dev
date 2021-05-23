@@ -18,3 +18,4 @@ head:
 # {{ $frontmatter.title }}
 
 - [機械学習超入門](/tech/ml/beginner)
+- [クラスタについて](/tech/ml/cluster)

@@ -176,6 +176,10 @@ module.exports = {
                     text: '機械学習超入門',
                     link: '/tech/ml/beginner', 
                   },
+                  {
+                    text: 'クラスタについて',
+                    link: '/tech/ml/cluster', 
+                  },
                 ]
               },
               {
