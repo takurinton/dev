@@ -24,4 +24,5 @@ head:
 # {{ $frontmatter.title }}
 
 - [HTTP 意味論](/tech/http/semantics)
+- [リソースバンドラについて](/tech/http/resourcebandles)
 - [Real World HTTP](/tech/http/real-world-http/)

@@ -157,6 +157,10 @@ module.exports = {
                     link: '/tech/http/semantics', 
                   },
                   {
+                    text: 'リソースバンドラについて',
+                    link: '/tech/http/resourcebandles', 
+                  },
+                  {
                     text: 'Real World HTTP',
                     link: '/tech/http/real-world-http/',
                     children: [
