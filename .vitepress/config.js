@@ -153,7 +153,15 @@ module.exports = {
                   {
                     text: 'GraphQL 入門（preact）',
                     link: '/tech/graphql/base_frontend_preact', 
-                  }
+                  }, 
+                  {
+                    text: 'urql について',
+                    link: '/tech/graphql/urql', 
+                  },
+                  {
+                    text: 'urql のキャッシュについて',
+                    link: '/tech/graphql/graphcache', 
+                  },
                 ]
               },
               {
