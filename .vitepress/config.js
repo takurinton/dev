@@ -31,7 +31,11 @@ module.exports = {
           items: [
             {
               text: 'ポートフォリオ',
-              link: 'https://www.takurinton.com/'
+              link: 'https://takurinton.com/'
+            },
+            {
+              text: 'ブログ',
+              link: 'https://blog.takurinton.com/'
             },
             {
                 text: 'GitHub',
