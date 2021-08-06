@@ -55,7 +55,8 @@ Alpine Linux は、musl と BusyBox をベースとした Linux のディスト�
 
 例えば debian-slim の node コンテナで headless chrome をインストールしようとするとこうなる。
 chrome の本体に加えて、フォントをインストールしないと日本語を表示することができないのでそこらへんを入れてる。  
-
+これは debian や alpine でオレオレでインストールするための方法なので公式で正規にサポートをしてるわけではない。やるなら自己責任。  
+ただ、これで普通にできるので chrome だけでいい人はやれば良さそう。僕は firefox と webkit も欲しかったのでやらなかった。
 
 ```docker
 FROM node:14.15.4-slim
@@ -86,6 +87,9 @@ RUN apt-get update && apt-get install -y \
 ```
 
 #### firefox の場合
+
+普通に firefox をインストールしようと思ったけどできなかった。  
+エラーが出る、どうやら glibc がおかしい。ログは後でメモする。a
 
 #### webkit の場合
 
