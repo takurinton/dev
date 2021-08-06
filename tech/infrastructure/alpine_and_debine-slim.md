@@ -88,3 +88,9 @@ RUN apt-get update && apt-get install -y \
 #### firefox の場合
 
 #### webkit の場合
+
+## 結局やめた
+
+debian や alpine は playwright 公式で対応してないっぽかったのでやめた。  
+Ubuntu で対応していくことにした。  
+こういう E2E テストをしたり、非同期で動いたりするものは完全に切り離すことに意味があって、依存関係をなくしていきたいのでそこらへんを意識した上で分離した。  
